@@ -6,23 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="main">
     <!-- Nav Bar -->
-    <nav>
-        <div>
-            <a href="#">Biography</a>
-        </div>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#">Biography</a>
 
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </nav>
+        </div>
+    </header>
 
     <!-- About -->
     <section>
@@ -34,7 +37,7 @@
         </div>
 
         <div>
-            <h2>About Meeeeeeeeee</h2>
+            <h2>About Me</h2>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio non quaerat aut, autem ut unde fugiat,
                 tenetur exercitationem tempore aliquid dicta? Possimus dignissimos provident commodi vel nostrum ipsa,
                 veniam perspiciatis? Error debitis at nostrum qui dolor, laborum possimus enim eveniet exercitationem
@@ -70,16 +73,14 @@
 
     <!-- Contact -->
     <section>
-        <h2>Contact</h2>
         <div>
             <form action="">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="email" placeholder="Email Address">
-                <textarea name="" id="" cols="30" rows="10">
-
-                        Enter Message
-                        </textarea>
+                <input type="text" class="inp" placeholder="First Name">
+                <input type="text" class="inp" placeholder="Last Name">
+                <input type="email" class="inp" placeholder="Email Address">
+                <textarea name="" class="inp" cols="30" rows="10">
+                    Enter Message
+                </textarea>
             </form>
         </div>
     </section>
